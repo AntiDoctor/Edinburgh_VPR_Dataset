@@ -1,56 +1,40 @@
 # Edinburgh VPR Dataset
 
-This page presents the Edinburgh visual place recognition dataset presented in the paper 'OpenSceneVLAD: Appearance Invariant, Open Set Scene Classification' published in ICRA 2022. Please cite our paper if you use this dataset. 
+This page presents the Edinburgh visual place recognition and scene classification dataset presented in the paper 'OpenSceneVLAD: Appearance Invariant, Open Set Scene Classification' published in ICRA 2022. Please cite our paper if you use this dataset. 
 
 ## Getting Started
 
-This dataset contains three traversals of one 19.5km route around Edinburgh, the Scottish capital city in urban, rural and motorway environments: 20210524 (overcast), 20210526 (evening) and 20210804 (sunny) using a dash-mounted OnePlus 7T recording 4k video at 30fps and a GPS logger app. 
+This dataset contains three traversals of one 19.5km route around Edinburgh, the Scottish capital city in urban, rural and motorway environments: 20210524 (overcast), 20210526 (evening) and 20210804 (sunny) using a dash-mounted OnePlus 7T recording 4k video at 30fps and a GPS logger app. We have also hand annoted the datasets to identify four classes within them and all remaining images are labelled as open set images:
+
+Class number       | Class label
+------------- | -------------
+1  | Pedestrain Crossing
+2  | Roundabout
+3  | Bus Stop
+4  | Bridge
+5  | Open Set
+
+
+
+Please note: all hand annotations of classes were done were done as reasonably as possible given the challenging and dynamic conditions of the environment.
 
 ![alt text](edi_route_map_simple.png)
 
-Our dataset is made up of three folders 
+### Format
 
-### Prerequisites
+Our dataset is made up of three folders corresponding to each traversal and within each folder is  
 
-What things you need to install the software and how to install them
 
-```
-Give examples
-```
 
-### Installing
+### Download
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
+We are Currently working on 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+  * **William H.B. Smith** - *Initial work* - [WHBSmith](https://github.com/WHBSmith)
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
 
