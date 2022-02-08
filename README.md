@@ -6,7 +6,7 @@ This page presents the Edinburgh visual place recognition dataset presented in t
 
 This dataset contains three traversals of one 19.5km route around Edinburgh, the Scottish capital city in urban, rural and motorway environments: 20210524 (overcast), 20210526 (evening) and 20210804 (sunny) using a dash-mounted OnePlus 7T recording 4k video at 30fps and a GPS logger app. 
 
-https://github.com/WHBSmith/Edinburgh_VPR_Dataset/blob/main/edi_route_map_simple.png
+![alt text](edi_route_map_simple.png)
 
 Our dataset is made up of three folders 
 
