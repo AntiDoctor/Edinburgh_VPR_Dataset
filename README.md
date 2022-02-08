@@ -15,7 +15,7 @@ Class number       | Class label | Average frame count
 3  | Bus Stop | 46
 4  | Bridge | 47
 5  | Open Set | 843
-|| total: 1124
+||| Total: 1124
 
 Please note: all hand annotations of classes were done were done as reasonably as possible given the challenging and dynamic conditions of the environment.
 
@@ -25,13 +25,15 @@ Please note: all hand annotations of classes were done were done as reasonably a
 
 ### Format
 
-Our dataset is made up of three folders corresponding to each traversal and within each folder is  
+Our dataset is made up of three folders, one for each traversal. Inside each folder is three things:
 
-
+* An **images** folder containing all the images from the dataset.
+* A **gps.xlsx** file containing the GPS positions of each image. 
+* A **scenes.xlsx** file containing the scene label of each image.
 
 ### Download
 
-We are currently working on finding as file sharing solution for hosting this large dataset (10GB+) 
+We are currently working on finding as file sharing solution for hosting this large dataset (10GB+), in the meantime anyone who would like a copy of it should raise an issue and I will be in touch.
 
 ## Authors
 
